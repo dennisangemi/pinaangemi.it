@@ -1,0 +1,384 @@
+artista:
+  nome: Pina Angemi
+  formazione: Laureata in scultura all'Accademia di Belle Arti di Catania
+  bio: |
+    "Mi sono laureata in scultura all'accademia di belle arti di Catania. Il mio interesse per la natura mi ha portato allo studio di forme antropomorfe; nel titolo che ho voluto dare: 'Noi siamo Natura' c'è già la vera essenza della mia ricerca. Spazio dalla scultura, alla pittura, esplorando varie tecniche: dal carboncino alla resina cercando di plasmare il mio pensiero. Le opere esposte nella mostra, raccontano di una natura non assoggettata all'uomo, ma libera di crescere senza costrizioni e sfruttamento. Nella mia dimensione esiste un 'Hen Kay Pan', noi siamo parte del tutto, e se non rispettiamo il luogo che ci ha partorito, l'umanità non avrà speranza alcuna."
+  immagine_profilo: assets/imgs/pina_angemi_profile_pic.jpg
+
+# ──────────────────────────────────────────────────────────────────────────────
+# MOSTRE
+# ──────────────────────────────────────────────────────────────────────────────
+
+mostre:
+  - id: primitivus_2026
+    titolo: "Primitivus. Lo sguardo della foresta"
+    anno: 2026
+    sede: "Nucleikart, via Umberto 145, Catania"
+    vernissage: "2026-01-24T18:00:00"
+    periodo: "24–31 gennaio 2026"
+    presentazione_critica: Stefano Puglisi
+    qualifica_presentatore: Antropologo e docente all'Accademia di Belle Arti di Catania
+
+  - id: noi_siamo_natura_2024
+    titolo: "Noi siamo Natura"
+    anno: 2024
+    sede: "Le Cucine, Monastero dei Benedettini, Catania"
+    periodo: Ottobre 2024
+    organizzazione: Associazione MEDITERRANEUM
+
+# ──────────────────────────────────────────────────────────────────────────────
+# SERIE
+# Metadati condivisi da gruppi di opere. Ogni opera della serie
+# referenzia la propria serie tramite il campo `serie`.
+# ──────────────────────────────────────────────────────────────────────────────
+
+serie:
+  - id: il_sogno
+    titolo: "Il sogno"
+    soggetto: ~
+    # descrizione: ~  # da completare
+    sculture:
+      materiale: Resina
+
+  - id: gorilla_silverback
+    titolo: "Gorilla Silverback"
+    soggetto: Gorilla silverback
+    mostra: primitivus_2026
+    descrizione: |
+      "Tutto è iniziato da uno sguardo. Non è avvenuto dal vivo, nel calore umido di una foresta equatoriale, ma attraverso la lente fredda eppur rivelatrice di una fotografia del National Geographic. In quell'immagine vidi un primate, un gorilla silverback (dal dorso d'argento), i suoi occhi mi fissavano semplicemente; mi interrogavano. In quell'istante, quella che poteva sembrare una semplice immagine documentaristica è diventata per me un'epifania, innescando un'urgenza creativa che non potevo ignorare."
+    concept: |
+      "Il Gorilla nelle mie opere non è solamente una 'bestia', ma un archetipo, o meglio
+      ancora un Totem. È uno specchio oscuro e lucente in cui riflettersi. Rappresenta
+      quelle parti più profonde e istintive del nostro animo che la società moderna ha
+      cercato di addomesticare o nascondere; il gorilla nella mia psiche diventa il simbolo
+      sacro dello spirito libero, nella speranza che un giorno, l'essere umano si renda
+      conto che rispettare madre natura equivale a preservare noi stessi dall'estinzione."
+    quadri:
+      numero_opere: 14
+      tecnica: Carboncino su carta
+      note_tecniche: |
+        "Ho scelto di lavorare prevalentemente in bianco e nero per spogliare l'immagine
+        di ogni distrazione, per arrivare all'essenza della forma, anche se ogni tanto ho
+        inserito delle 'fratture cromatiche', i loro occhi si accendono come un braciere
+        ardente che ci interroga; è la vita che pulsa, come l'urgenza di esistere. I riflessi
+        sul pelo si tingono di ambra e ocra, colori caldi, terrestri, che richiamano la luce
+        del tramonto nella foresta, l'oro antico di una regalità primitiva."
+      concept: |
+        "Ho creato 14 disegni di creature diverse: cuccioli con le madri, esemplari che
+        sembrano in una naturale riflessione, altri ancora che giocano e si nascondono
+        all'interno del loro habitat. Ogni esemplare attraverso le pieghe del volto narra
+        espressioni molto simili alle nostre."
+    sculture:
+      numero_opere: 6
+      materiale: Resina
+      # colori da associare singolarmente a ogni opera: rosso, giallo, blu, petrolio, verde cangiante, trasparente
+      note_tecniche: |
+        "Ho scelto di lavorare con la resina per la sua straordinaria capacità di catturare
+        e trasformare la luce, utilizzando un'unica matrice formale. La forma è uguale per
+        tutti, cambia la colorazione. Un gorilla seduto, in una posizione di attesa
+        monumentale, quasi un Buddha della foresta pluviale, non hanno braccia, nella
+        creazione che in realtà avviene un'astrazione, il dorso del gorilla appare a forma
+        di cuore, come a voler abbracciare l'universo. I colori vanno dai primari, rosso,
+        giallo e blu, al petrolio o verde cangiante, per approdare al trasparente, capace
+        di raccogliere luce e colori circostanti."
+      descrizione: |
+        "La sua forma è un'astrazione del primato, quasi un totem, legato sempre al culto
+        della natura."
+
+# ──────────────────────────────────────────────────────────────────────────────
+# OPERE
+# Le opere appartenenti a una serie riportano solo i campi
+# che differiscono dalla serie (numero, immagine, eventuale colore).
+# Le opere singole hanno tutti i metadati inline.
+# ──────────────────────────────────────────────────────────────────────────────
+
+opere:
+
+  # — Serie Il sogno · sculture ————————————————————————————————————————————
+
+  - id: sogno_scultura_01
+    serie: il_sogno
+    categoria: scultura
+    numero: 1
+    # colore: ~  # da completare
+    immagine: assets/imgs/sculture/resina/sogno_1.jpg
+
+  - id: sogno_scultura_02
+    serie: il_sogno
+    categoria: scultura
+    numero: 2
+    # colore: ~
+    immagine: assets/imgs/sculture/resina/sogno_2.jpg
+
+  - id: sogno_scultura_03
+    serie: il_sogno
+    categoria: scultura
+    numero: 3
+    # colore: ~
+    immagine: assets/imgs/sculture/resina/sogno_3.jpg
+
+  # — Serie Gorilla Silverback · quadri ————————————————————————————————————
+
+  - id: gorilla_quadro_01
+    serie: gorilla_silverback
+    categoria: quadro
+    numero: 1
+    immagine: assets/imgs/quadri/gorilla_quadri_1.jpg
+
+  - id: gorilla_quadro_02
+    serie: gorilla_silverback
+    categoria: quadro
+    numero: 2
+    immagine: assets/imgs/quadri/gorilla_quadri_2.jpg
+
+  - id: gorilla_quadro_03
+    serie: gorilla_silverback
+    categoria: quadro
+    numero: 3
+    immagine: assets/imgs/quadri/gorilla_quadri_3.jpg
+
+  - id: gorilla_quadro_04
+    serie: gorilla_silverback
+    categoria: quadro
+    numero: 4
+    immagine: assets/imgs/quadri/gorilla_quadri_4.jpg
+
+  - id: gorilla_quadro_05
+    serie: gorilla_silverback
+    categoria: quadro
+    numero: 5
+    immagine: assets/imgs/quadri/gorilla_quadri_5.jpg
+
+  - id: gorilla_quadro_06
+    serie: gorilla_silverback
+    categoria: quadro
+    numero: 6
+    immagine: assets/imgs/quadri/gorilla_quadri_6.jpg
+
+  - id: gorilla_quadro_07
+    serie: gorilla_silverback
+    categoria: quadro
+    numero: 7
+    immagine: assets/imgs/quadri/gorilla_quadri_7.jpg
+
+  - id: gorilla_quadro_08
+    serie: gorilla_silverback
+    categoria: quadro
+    numero: 8
+    immagine: assets/imgs/quadri/gorilla_quadri_8.jpg
+
+  - id: gorilla_quadro_09
+    serie: gorilla_silverback
+    categoria: quadro
+    numero: 9
+    immagine: assets/imgs/quadri/gorilla_quadri_9.jpg
+
+  - id: gorilla_quadro_10
+    serie: gorilla_silverback
+    categoria: quadro
+    numero: 10
+    immagine: assets/imgs/quadri/gorilla_quadri_10.jpg
+
+  - id: gorilla_quadro_11
+    serie: gorilla_silverback
+    categoria: quadro
+    numero: 11
+    immagine: assets/imgs/quadri/gorilla_quadri_11.jpg
+
+  - id: gorilla_quadro_12
+    serie: gorilla_silverback
+    categoria: quadro
+    numero: 12
+    immagine: assets/imgs/quadri/gorilla_quadri_12.jpg
+
+  - id: gorilla_quadro_13
+    serie: gorilla_silverback
+    categoria: quadro
+    numero: 13
+    immagine: assets/imgs/quadri/gorilla_quadri_13.jpg
+
+  - id: gorilla_quadro_14
+    serie: gorilla_silverback
+    categoria: quadro
+    numero: 14
+    immagine: assets/imgs/quadri/gorilla_quadri_14.jpg
+
+  # — Serie Gorilla Silverback · sculture ——————————————————————————————————
+
+  - id: gorilla_scultura_01
+    serie: gorilla_silverback
+    categoria: scultura
+    numero: 1
+    # colore: ~  # da completare
+    immagine: assets/imgs/sculture/resina/gorilla_scultura_1.jpg
+
+  - id: gorilla_scultura_02
+    serie: gorilla_silverback
+    categoria: scultura
+    numero: 2
+    # colore: ~
+    immagine: assets/imgs/sculture/resina/gorilla_scultura_2.jpg
+
+  - id: gorilla_scultura_03
+    serie: gorilla_silverback
+    categoria: scultura
+    numero: 3
+    # colore: ~
+    immagine: assets/imgs/sculture/resina/gorilla_scultura_3.jpg
+
+  - id: gorilla_scultura_04
+    serie: gorilla_silverback
+    categoria: scultura
+    numero: 4
+    # colore: ~
+    immagine: assets/imgs/sculture/resina/gorilla_scultura_4.jpg
+
+  - id: gorilla_scultura_05
+    serie: gorilla_silverback
+    categoria: scultura
+    numero: 5
+    # colore: ~
+    immagine: assets/imgs/sculture/resina/gorilla_scultura_5.jpg
+
+  - id: gorilla_scultura_06
+    serie: gorilla_silverback
+    categoria: scultura
+    numero: 6
+    # colore: ~
+    immagine: assets/imgs/sculture/resina/gorilla_scultura_6.jpg
+
+  # — Quadri singoli ———————————————————————————————————————————————————————
+
+  - id: eruzione
+    titolo: "Eruzione"
+    categoria: quadro
+    # tecnica: ~  # da completare
+    immagine: assets/imgs/quadri/eruzione.jpg
+
+  - id: dentro_le_pieghe
+    titolo: "Dentro le Pieghe"
+    categoria: quadro
+    # tecnica: ~  # da completare
+    immagine: assets/imgs/quadri/dentro_le_pieghe.jpg
+    descrizione: |
+      "L'opera rappresenta una parte del mantello simbolico di San Vito. Non vi è la sua
+      figura, ma la sua assenza; tuttavia, solo con la sua mancanza figurativa, si percepisce
+      la sua presenza. Attraverso le pieghe della scultura, concrete e tangibili, cerco di
+      rendere vivo qualcosa che non è. Come quando perdi una persona amata, e mediante
+      i suoi indumenti cerchi ancora la sua presenza. Ho cercato di creare una sorta di
+      'sindone', ove ancora, attraverso il movimento del panneggio, si possa captare una
+      sorta di presenza/assenza. Nella speranza che questa piccola porzione di mantello,
+      possa metaforicamente, guarire il nostro mondo dalla mancanza sempre più greve
+      di Umanità."
+
+  - id: pescheria
+    titolo: "Pescheria"
+    categoria: quadro
+    # tecnica: ~  # da completare
+    immagine: assets/imgs/quadri/pescheria.jpg
+
+  # — Sculture singole ——————————————————————————————————————————————————————
+
+  - id: noi_siamo_natura
+    titolo: "Noi siamo Natura"
+    categoria: scultura
+    materiale: Legno di Tulipier
+    soggetto: Figura antropomorfa
+    anno: 2024
+    mostra: noi_siamo_natura_2024
+    immagine: assets/imgs/sculture/legno/noi_siamo_natura.jpg
+    descrizione: |
+      "Scultura in legno Tulipier, una figura antropomorfa, attraverso le forme concave e
+      convesse, descrivo la nostra unione e unità con tutto l'universo. 'Hen Kay Pan'
+      Uno e tutto."
+    concept: |
+      "Ho inserito una scultura in legno antropomorfa che rappresenta madre natura,
+      il fulcro del mio discorso narrativo e creativo."
+
+  - id: profilo_scultura
+    titolo: "Profilo"
+    categoria: scultura
+    materiale:
+      - Legno di Ulivo
+      - Resina Epossidica
+      - Acciaio
+    dimensioni:
+      scultura: "70 × 30 × 12 cm"
+      base: "40 × 20 cm"
+    soggetto: Figura femminile bifacciale
+    anno: 2024
+    certificato_autenticita: true
+    immagine: assets/imgs/sculture/legno/profilo_scultura.jpg
+    descrizione: |
+      "Questa scultura, alta 70 cm, è un'opera bifacciale che vive di contrasti. Da un
+      lato, emerge un volto femminile di profilo, scolpito con linee morbide che dialogano
+      con la venatura tormentata del legno. Sul lato opposto, lo stesso volume si
+      trasforma: il volto si intravede appena, mentre gli incavi naturali e le ferite del
+      tempo nell'ulivo sono stati colmati e 'sanati' da colate di resina epossidica, che
+      cristallizza la luce e crea un prezioso mosaico cromatico."
+    note_tecniche: |
+      "La natura è l'artista co-autore: ho scelto di preservare la corteccia originale nella
+      parte superiore, che si trasforma naturalmente in una fluente chioma di capelli,
+      accentuando il legame ancestrale della figura con l'albero stesso. Due fori passanti
+      aprono l'opera, permettendo alla luce e allo spazio circostante di penetrare e
+      dialogare con la forma. L'opera è saldamente ancorata a una base monolitica in
+      acciaio, conferendo stabilità e un tocco 'industrial' che la rende perfetta per un
+      ambiente contemporaneo."
+
+  - id: la_terza_via
+    titolo: "La terza via"
+    categoria: scultura
+    materiale: Bronzo
+    soggetto: Figura femminile astratta
+    mostra: noi_siamo_natura_2024
+    ispirazione: Venere di Willendorf
+    immagine: assets/imgs/sculture/bronzo/la_terza_via.jpg
+    descrizione: |
+      "La figura trae ispirazione dalla Venere di Willendorf, con forme essenziali, quasi
+      astratte, ma riconducibili ancora una volta, alla terza via, o una nuova possibilità
+      nel rispetto del nostro ecosistema. Una nuova speranza per un futuro migliore."
+
+  - id: sadness
+    titolo: "Sadness"
+    categoria: scultura
+    materiale: Pietra
+    # dimensioni: non disponibili nei documenti – da completare
+    soggetto: Figura femminile stilizzata
+    immagine: assets/imgs/sculture/pietra/sadness.jpg
+    descrizione: |
+      "Dal titolo possiamo capire il senso della figura femminile abbastanza stilizzata.
+      La figura è in verticale quasi simile ad una colonna greca, con la testa piegata da
+      un lato della spalla, esprime sofferenza e nello stesso tempo accettazione, mentre
+      le sue dolci forme arrotondate, come l'ovale della testa, il seno appena accennato,
+      consegnano una forma armoniosa e piena di luce. Sadness non vuole essere un
+      messaggio negativo all'osservatore, la tristezza fa parte di noi come la gioia, è un
+      tassello molto importante della nostra vita, bisogna riconoscerlo. L'opera non
+      simboleggia la rassegnazione, ma la volontà viva di voler portare il peso del
+      'mondo' sulle spalle con forza, coraggio e dolcezza, mantenendo tutte le virtù
+      femminili legati all'animo universale del mondo."
+
+  - id: esistenza
+    titolo: "L'esistenza"
+    categoria: scultura
+    materiale: Pietra
+    # dimensioni: non disponibili nei documenti – da completare
+    soggetto: ~
+    immagine: assets/imgs/sculture/pietra/esistenza.jpg
+    riferimenti_filosofici:
+      - "Velo di Maya"
+      - "Caverna di Platone"
+    descrizione: |
+      "Appena nasciamo veniamo addomesticati, nelle modalità che vuole la società in cui
+      viviamo. Si forma il nostro pensiero. Tutto viene costruito e conficcato nelle nostre
+      menti, come dei pali di architetture morali, conformi al nostro presente. La nostra
+      mente rimane chiusa dentro una gabbia dorata... All'interno vi regna la 'perfezione',
+      l'armonia, il giusto, il normale... Non vi è posto per il deforme, il diverso, il nuovo...
+      Tutto ha un sapore vecchio e rasserenante.
+      Ma un bel giorno avviene qualcosa che sovverte tutto. Arriva all'improvviso come un
+      lampo a ciel sereno: l'inconsueto, l'imprevedibile, l'imponderabile... uno squarcio,
+      uno sfondamento, un trauma irrompe e frantuma in mille pezzi la favola che ci hanno
+      raccontato. La gabbia si apre, il cerchio si sfonda, nasce una nuova luce: il reale,
+      l'imperfetto, l'orrido, ma soprattutto il vero. Ma è nello squarcio, (come nel velo di
+      maya, o nel buio della caverna di Platone) che si ha la possibilità di guardare la
+      nostra esistenza sotto una luce nuova. E in quella luce, che è una luce cosmica,
+      vi è la salvezza dell'intera umanità."

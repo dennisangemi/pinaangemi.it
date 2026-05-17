@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pina Angemi — Scultrice e pittrice catanese. Opere di natura, gorilla, esistenza e spirito.">
+  <title>Pina Angemi</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:,">
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <!-- Preload critical assets -->
+  <link rel="preload" as="image" href="assets/imgs/quadri/gorilla_quadri_2.jpg">
+  <link rel="preload" as="image" href="assets/imgs/pina_angemi_profile_pic.jpg">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#hero" class="nav-logo">PA</a>
+  <ul class="nav-links">
+    <li><a href="#artista">Chi è</a></li>
+    <li><a href="#catalogo">Catalogo</a></li>
+    <li><a href="#mostre">Mostre</a></li>
+    <li><a href="#contatti">Contatto</a></li>
+  </ul>
+  <button class="nav-burger" id="burger" aria-label="Apri menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile menu overlay -->
+<div id="mobileMenu">
+  <button id="mobileClose" aria-label="Chiudi menu">✕</button>
+  <a href="#artista">Chi è</a>
+  <a href="#catalogo">Catalogo</a>
+  <a href="#mostre">Mostre</a>
+  <a href="#contatti">Contatto</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">
+      <span class="label">Scultrice · Pittrice · Catania</span>
+    </div>
+    <h1 class="hero-name">Pina<br><em>Angemi</em></h1>
+    <div class="hero-lower">
+      <blockquote class="hero-quote">
+        «Noi siamo parte del tutto, e se non rispettiamo il luogo che ci ha partorito, l'umanità non avrà speranza alcuna.»
+      </blockquote>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    <span>Scopri</span>
+  </div>
+</section>
+
+<!-- ARTISTA -->
+<section id="artista" class="section">
+  <div class="section-inner">
+    <div class="artista-grid">
+      <div class="artista-img-wrap fi">
+        <img
+          src="assets/imgs/pina_angemi_profile_pic.jpg"
+          alt="Pina Angemi"
+          class="artista-img"
+          fetchpriority="high"
+          decoding="async"
+        >
+      </div>
+      <div class="artista-bio fi fi-d1">
+        <p class="label" style="margin-bottom:1rem">Chi è</p>
+        <p class="artista-formation">Accademia di Belle Arti di Catania · Scultura</p>
+        <h2 class="artista-name">Pina Angemi</h2>
+        <p class="artista-text">
+          Laureata in scultura all'Accademia di Belle Arti di Catania, Pina Angemi ha sempre amato
+          l'arte in tutte le sue forme. Dopo anni di lavoro come art promoter, impegnata in eventi
+          culturali e artistici, oggi esplora la propria dimensione intima e universale attraverso
+          le sue opere.
+        </p>
+        <blockquote class="artista-pullquote">
+          «Nel titolo che ho voluto dare: "Noi siamo Natura" c'è già la vera essenza della mia ricerca.»
+        </blockquote>
+        <p class="artista-text">
+          La sua ricerca spazia dalla scultura alla pittura, esplorando tecniche diverse — dal
+          carboncino alla resina — nel tentativo di plasmare il pensiero. Le sue opere raccontano
+          di una natura non assoggettata all'uomo, libera di crescere senza costrizioni e sfruttamento.
+        </p>
+        <p class="artista-hen">
+          <em>Hen Kay Pan</em> — Uno e tutto.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATALOGO -->
+<section id="catalogo" class="section">
+  <div class="section-inner">
+    <div class="section-hd fi">
+      <p class="label">Opere</p>
+      <h2 class="section-title">Il <em>Catalogo</em></h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="catalog-filters">
+      <button class="filter-btn active" data-f="all">Tutte</button>
+      <button class="filter-btn" data-f="quadro">Quadri</button>
+      <button class="filter-btn" data-f="scultura">Sculture</button>
+    </div>
+    <div id="galleryRoot">
+      <div class="cat-loading"><div class="cat-spinner"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESSO CREATIVO (placeholder) -->
+<section id="processo" class="section">
+  <div class="section-inner">
+    <div class="section-hd fi">
+      <p class="label">Atelier</p>
+      <h2 class="section-title">Processo <em>Creativo</em></h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="processo-coming fi fi-d1">
+      <span class="processo-pill">In arrivo</span>
+      <p>
+        Un viaggio nel metodo e nella visione dell'artista — dai primi segni a carboncino
+        alle colate di resina. Presto sarà possibile esplorare il processo creativo dietro ogni opera.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- MOSTRE -->
+<section id="mostre" class="section">
+  <div class="section-inner">
+    <div class="section-hd fi">
+      <p class="label">Esposizioni</p>
+      <h2 class="section-title">Le <em>Mostre</em></h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="mostre-grid">
+
+      <article class="mostra-card fi fi-d1">
+        <div class="mostra-anno">2026</div>
+        <h3 class="mostra-titolo">Primitivus</h3>
+        <p class="mostra-sub">Lo sguardo della foresta</p>
+        <div class="mostra-detail">
+          <span class="mostra-icon">↳</span>
+          <span>Nucleikart, via Umberto 145, Catania</span>
+        </div>
+        <div class="mostra-detail">
+          <span class="mostra-icon">↳</span>
+          <span>24–31 gennaio 2026<br>Vernissage 24 gennaio · ore 18:00</span>
+        </div>
+        <div class="mostra-detail">
+          <span class="mostra-icon">↳</span>
+          <span>Personale d'arte · 14 quadri · 7 sculture</span>
+        </div>
+        <div class="mostra-footer">
+          Presentazione critica di <strong>Stefano Puglisi</strong><br>
+          Antropologo e docente — Accademia di Belle Arti di Catania
+        </div>
+      </article>
+
+      <article class="mostra-card fi fi-d2">
+        <div class="mostra-anno">2024</div>
+        <h3 class="mostra-titolo">Noi siamo Natura</h3>
+        <p class="mostra-sub">Opere scultoree e pittoriche</p>
+        <div class="mostra-detail">
+          <span class="mostra-icon">↳</span>
+          <span>Le Cucine — Monastero dei Benedettini, Catania</span>
+        </div>
+        <div class="mostra-detail">
+          <span class="mostra-icon">↳</span>
+          <span>Ottobre 2024</span>
+        </div>
+        <div class="mostra-detail">
+          <span class="mostra-icon">↳</span>
+          <span>In collaborazione con Associazione MEDITERRANEUM</span>
+        </div>
+        <div class="mostra-footer">
+          Documentazione fotografica: <strong>Med Fest</strong>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTATTI -->
+<section id="contatti" class="section">
+  <div class="section-inner">
+    <div class="contact-grid">
+      <div class="fi">
+        <p class="label" style="margin-bottom:1rem">Contatto</p>
+        <p class="contact-lead">
+          Per informazioni sulle opere,<br>collaborazioni o <em>mostre</em>.
+        </p>
+      </div>
+      <div class="contact-links fi fi-d1">
+        <a href="mailto:info@pinaangemi.it" class="contact-row">
+          <span class="contact-lbl">Email</span>
+          <span>info@pinaangemi.it</span>
+        </a>
+        <div class="contact-row">
+          <span class="contact-lbl">Instagram</span>
+          <span>@pinaangemi</span>
+        </div>
+        <div class="contact-row">
+          <span class="contact-lbl">Luogo</span>
+          <span>Catania, Sicilia</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span class="footer-name">Pina Angemi</span>
+  <span class="footer-copy">© 2026 · Tutti i diritti riservati</span>
+</footer>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Opera d'arte">
+  <div class="lb-img-area">
+    <img id="lbImg" src="" alt="">
+  </div>
+  <div class="lb-panel">
+    <p id="lbSerie"></p>
+    <h2 id="lbTitle"></h2>
+    <p id="lbDesc"></p>
+    <dl id="lbTech"></dl>
+  </div>
+  <button id="lbClose" aria-label="Chiudi">✕</button>
+  <button class="lb-nav" id="lbPrev" aria-label="Precedente">←</button>
+  <button class="lb-nav" id="lbNext" aria-label="Successivo">→</button>
+  <p id="lbCounter"></p>
+</div>
+
+<!-- Scripts: js-yaml CDN first, then our module -->
+<script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
