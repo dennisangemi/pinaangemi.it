@@ -297,10 +297,10 @@ opere:
       il fulcro del mio discorso narrativo e creativo."
 
   - id: profilo_scultura
-    titolo: "Profilo"
+    titolo: ""
     categoria: scultura
     materiale:
-      - Legno di Ulivo
+      - Legno di ulivo
       - Resina Epossidica
       - Acciaio
     dimensioni:
@@ -339,8 +339,9 @@ opere:
       astratte, ma riconducibili ancora una volta, alla terza via, o una nuova possibilità
       nel rispetto del nostro ecosistema. Una nuova speranza per un futuro migliore."
 
-  - id: sadness
+  - id: sadness_pietra
     titolo: "Sadness"
+    anno: 2022
     categoria: scultura
     materiale: Pietra
     # dimensioni: non disponibili nei documenti – da completare
@@ -357,6 +358,13 @@ opere:
       simboleggia la rassegnazione, ma la volontà viva di voler portare il peso del
       'mondo' sulle spalle con forza, coraggio e dolcezza, mantenendo tutte le virtù
       femminili legati all'animo universale del mondo."
+
+  - id: sadness_ceramica
+    titolo: Sadness
+    immagine: assets/imgs/sculture/ceramica/sadness_ceramica.jpg
+    anno: 2022
+    materiale: "Ceramica"
+    categoria: scultura
 
   - id: nuovo_giorno
     immagine: assets/imgs/quadri/nuovo_giorno.jpeg
