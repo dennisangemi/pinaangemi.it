@@ -257,6 +257,7 @@ opere:
 
   - id: dentro_le_pieghe
     titolo: "Dentro le Pieghe"
+    anno: 2025
     categoria: quadro
     # tecnica: ~  # da completare
     immagine: assets/imgs/quadri/dentro_le_pieghe.jpg
@@ -357,10 +358,21 @@ opere:
       'mondo' sulle spalle con forza, coraggio e dolcezza, mantenendo tutte le virtù
       femminili legati all'animo universale del mondo."
 
+  - id: nuovo_giorno
+    immagine: assets/imgs/quadri/nuovo_giorno.jpeg
+    anno: 2025
+    titolo: "Il nuovo giorno" 
+    categoria: quadro
+    materiale: "carbotelli su carta, sfondo in  foglia oro"
+    descrizione: |
+      "Il Gallo spesso utilizzato come simbolo di San Vito, si rifà a Gesù, alla resurrezione, ma soprattutto, rappresenta la luce divina del nuovo giorno che sconfigge le tenebre della notte."
+
   - id: esistenza
     titolo: "L'esistenza"
+    anno: 2022
     categoria: scultura
-    materiale: Pietra
+    dimensioni: 140 x 40 cm
+    materiale: "Gesso alabastrino, ottone, plexiglass"
     # dimensioni: non disponibili nei documenti – da completare
     soggetto: ~
     immagine: assets/imgs/sculture/pietra/esistenza.jpg
@@ -382,3 +394,10 @@ opere:
       maya, o nel buio della caverna di Platone) che si ha la possibilità di guardare la
       nostra esistenza sotto una luce nuova. E in quella luce, che è una luce cosmica,
       vi è la salvezza dell'intera umanità."
+
+  - id: big_bang
+    immagine: assets/imgs/quadri/big_bang.jpg
+    anno: 2023
+    titolo: "Big Bang"
+    categoria: quadro
+    materiale: "Acrilici e resina"

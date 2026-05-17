@@ -708,7 +708,7 @@ footer {
   font-size: 0.6rem;
   letter-spacing: 0.17em;
   text-transform: uppercase;
-  color: var(--fg-dim);
+  color: var(--fg-muted);  /* #7c7c72 su #090908 → ~4.8:1 (WCAG 2.1 AA) */
   margin-top: 0.8rem;
 }
 #lbTech dd { margin: 0; }
